@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Dojo Registration</title>
+</head>
+<body>
+<h1>Submitted Application</h1>
+
+<form action="/submit">
+  <h2>Name:{{session['name']}}</h2>
+  <h2>Dojo Location:{{session['dojo_location']}}</h2>
+  <h2>Favorite Language:{{session['favorite_language']}}</h2>
+  <h2>Comment:{{session['comments']}}</h2>
+</form>
+</body>
+</html>
